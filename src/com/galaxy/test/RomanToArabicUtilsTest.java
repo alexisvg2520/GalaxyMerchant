@@ -13,7 +13,11 @@ public class RomanToArabicUtilsTest {
     public void setUp() throws Exception {
         conversorRoman = new RomanToArabicUtils();
     }
-
+    
+    @Test
+    public void testToArabicNumber() {
+    	assertEquals(49, conversorRoman.toArabicNumber("XLIX"));
+    }
     @Test
     public void testGetTranslateArabicRoman() {
         assertEquals("how many Credits is glob prok Gold ?", conversorRoman.getTranslateArabicRoman("how many Credits is glob prok Gold ?"));
