@@ -56,3 +56,17 @@ glob prok Gold is 57800 Credits
 glob prok Iron is 782 Credits
 I have no idea what you are talking about
 ```
+
+## Ejecución del Código
+### MAIN
+Desde el path: com.galaxy.main
+Ejecutar la clase
+```
+Main
+```
+### TEST
+Desde el path: com.galaxy.test
+Ejecutar la clase
+```
+RomanToArabicUtilsTest
+```
